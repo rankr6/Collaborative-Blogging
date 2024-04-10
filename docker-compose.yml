@@ -4,7 +4,7 @@ services:
     build:
       context: .
       target: dev
-    image: todo-app:development
+    image: colab-app:development
     volumes:
       - .:/app
     ports:
